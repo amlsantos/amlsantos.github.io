@@ -1,0 +1,94 @@
+@import url("main.css");
+
+.top {
+    padding-bottom: 0rem;
+}
+
+label {
+    color: #ffffff;
+    display: block;
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.25em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+
+article p {
+    color: #e6e6e6;
+    margin-top: 1rem;
+    text-align: justify;
+    font-size: 1.7rem;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="url"], select {
+    height: 2.75em;
+}
+
+input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: rgba(212, 212, 255, 0.035);
+    border: none;
+    border-radius: 0;
+    color: inherit;
+    display: block;
+    outline: 0;
+    padding: 0 1em;
+    text-decoration: none;
+    width: 100%;
+    color: #F61666;
+}
+
+input, textarea {
+    font-size: 17pt;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    line-height: 1.65;
+    font-family: varela round,sans-serif;
+}
+
+input[type="email"]:focus, input[type="text"]:focus, textarea:focus {
+	border: 2px solid #fc3565;
+}
+
+fieldset, input, select, textarea {
+    margin-bottom: 1.5rem;
+}
+
+#message { 
+    min-width: 100%;
+	max-width: 115%;
+    min-height: 25rem;
+	max-height: 35rem;
+}
+
+input[type=submit] {
+	color: red;
+}
+
+.message_success {
+	background-color: #008773;
+}
+
+.message_error {
+	background-color: #962E40;
+}
+
+/* For 4K Displays (Ultra HD) */
+@media screen and (min-width: 2560px) {
+    body {
+        transform: translateY(7%);
+        overflow: hidden;
+    }
+  }
+  
+  /* For 4K Displays (Ultra HD) */
+  @media screen and (min-width: 3840px) {
+    body {
+      transform: translateY(7%);
+      overflow: hidden;
+    }
+  }

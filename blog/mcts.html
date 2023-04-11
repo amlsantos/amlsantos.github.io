@@ -1,0 +1,144 @@
+<!-- HEADER -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css'>
+    <link rel="stylesheet" href="../css/mcts.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+    <title>Monte Carlo Tree Search experiments Hearthstone</title>
+</head>
+
+<body>
+    <div id="particles-js">
+        <div class="container">
+            <div class="row top">
+                <div class="twelve column">
+                    <div class="logo"><a href="../index.html">A</a></div>
+                    <!-- HEADER -->
+                </div>
+            </div>
+
+            <article>
+                <h1>Monte Carlo Tree Search experiments in Hearthstone</h1>
+                <p class="posted">Published on <a href="https://ieeexplore.ieee.org/xpl/conhome/8067294/proceeding">IEEE
+                        CIG 2017</a></p>
+                <p>
+                    I successfully finished my master thesis under the supervision of <a class="link1"
+                        href="https://gaips.inesc-id.pt/component/gaips/people/displayPerson/8/43">Pedro Santos</a>
+                    &amp;
+                    <a class="link1"
+                        href="https://gaips.inesc-id.pt/component/gaips/people/displayPerson/8/18">Francisco
+                        Melo</a> about developing an AI system for the card game <a
+                        href="https://eu.battle.net/hearthstone/en/" class="info_edu">Hearthstone: Heroes of
+                        Warcraft</a>: the most popular online CCG game, with 50 million players as of April 2016.
+                </p>
+                <p>
+                    In this work, I propose the use of Monte Carlo Tree Search (MCTS), as it is becoming a de facto
+                    standard in game AI and is particularly suited to address the chance elements in Hearthstone. In
+                    particular, I propose a modified version of MCTS which integrates expert knowledge in the
+                    algorithm’s search process.
+                </p>
+                <p>
+                    Such integration is done, on one hand, through a database of decks that the algorithm uses to cope
+                    with the imperfect information; and, on the other hand, through the inclusion of a heuristic that
+                    guides the MCTS rollout phase and which effectively circumvents the large search space of the game.
+                </p>
+                <p>
+                    The heuristic represents a particular game strategy, and aims at supporting the selection and
+                    simulation process.
+                </p>
+                <p>
+                    Summarizing, the contributions are as follows:
+                <ul>
+                    <li>
+                        The first contribution consists in using a deck database to address the problem of hidden
+                        information in the game;
+                    </li>
+                    <li>
+                        The second and main contribution is the integration of a heuristic to handle the large search
+                        space of the game.
+                    </li>
+                </ul>
+                </p>
+
+                <hr>
+
+                <a href="https://www.youtube.com/watch?v=Q-76KJeiY38">
+                    <div class="cp_embed_wrapper">
+                        <div id="output" data-border-style="thin">
+                            <div class="background-image" style="background-image: url('../img/presentation.png')">
+                                <div class="background-overlay">
+                                    <h6>Paper presentation in NYU</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=-lT5C0lG6pM&list=PLWanVpGH8_X8Hb2hbz7iGLzokzycreC_q">
+                    <div class="cp_embed_wrapper">
+                        <div id="output" data-border-style="thin">
+                            <div class="background-image" style="background-image: url('../img/deckbuilder0.png')">
+                                <div class="background-overlay">
+                                    <h6>Youtube playlist</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="button"
+                    href="https://www.researchgate.net/publication/317904983_Monte_Carlo_Tree_Search_experiments_in_Hearthstone">Paper</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="button" href="../download/MCTSexperimentsHS.zip">Download</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="button" href="https://github.com/demilich1/metastone">Metastone</a>
+            </article>
+        </div>
+    </div>
+
+    <br><br><br><br><br>
+    <!-- FOOTER -->
+    
+    <div>
+        <div class="u-full-width">
+            <div class="logo smallLogo">
+                <a href="index.html">A</a>
+            </div>
+            <ul class="footerLinks">
+                <li>
+                    <a href="https://www.linkedin.com/in/msantos92/?locale=en_US">Linkedin</a>
+                </li>
+                <li>
+                    <a href="https://github.com/santos-an">Github</a>
+                </li>
+                <li>
+                    <a href="index.html">Blog</a>
+                  </li>
+                <li>
+                    <a href="../contact.html">Contact</a>
+                </li>
+            </ul>
+            <div class="footer">
+                <p>Built using the AWESOME
+                    <a href="https://github.com/VincentGarreau/particles.js/">Particles.js</a>,
+                    <a href="https://cpv2api.com/">Codepen V2 API</a>,
+                    <a href="https://codepen.io/j-w-v/pen/RrMLjV"> Codepen JWV <a /> &amp;
+                        <a href="http://getskeleton.com/">Skeleton.css</a>
+                </p>
+            </div>
+        </div>
+        <script src='https://code.jquery.com/jquery-latest.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
+        <script src="../js/particles.js"></script>
+    </div>
+</body>
+
+</html>
+<!-- FOOTER -->

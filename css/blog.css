@@ -1,0 +1,111 @@
+@import url("main.css");
+
+BODY {
+    background: #282931;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Varela Round', sans-serif;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+h1 {
+    line-height: 72px;
+    margin: 24px 0;
+    color: white;
+}
+
+h3 {
+    color: #fc3565;
+    line-height: 24px;
+    margin: 24px 0;
+}
+
+h6 {
+    line-height: 24px;
+}
+
+h6 span {
+    color: white;
+    line-height: 12px;
+}
+
+p {
+    line-height: 24px;
+    margin: 24px 0;
+    color: #bbbbc4;
+}
+
+a:hover {
+    color: #fc3565;
+}
+
+.columns {
+    background: rgba(47, 48, 58, 0.38);
+}
+
+.columns:hover {
+    background: #2e2f35;
+}
+
+.teaser {
+    padding: 10px;
+}
+
+.teaser h3
+{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 30px;
+}
+
+.featured {
+    background: url(../img/presentation.png);
+    background-repeat: no-repeat;
+    background-position: 0px -100px;
+    background-size: auto;
+    height: 250px;
+    background-size: cover;
+}
+
+.iTwo {
+    background: url(../img/solid.avif);
+    background-repeat: no-repeat;
+}
+
+.iSix {
+    background: url(../img/encapsulation.avif);
+    background-repeat: no-repeat;
+}
+
+.iSeven {
+    background: url(../img/fp.avif);
+    background-repeat: no-repeat;
+}
+
+.img {
+    background-repeat: no-repeat;
+    height: 250px;
+    background-size: cover;
+}
+
+.row {
+    margin-bottom: 1.5rem;
+}
+
+.footer p 
+{
+    margin: 0;
+}
+
+.teaser p 
+{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

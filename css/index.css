@@ -1,0 +1,42 @@
+@import url("main.css");
+
+/* Mobile first queries */
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+@media screen and (min-width: 1400px) {}
+
+@media screen and (min-width: 1600px) {}
+
+/* For Projectors or Higher Resolution Screens (Full HD) */
+@media screen and (min-width: 1920px) {
+}
+
+/* For 4K Displays (Ultra HD) */
+@media screen and (min-width: 2560px) {
+  body {
+    transform: translateY(17%);
+    overflow: hidden;
+  }
+}
+
+/* For 4K Displays (Ultra HD) */
+@media screen and (min-width: 3840px) {
+  body {
+    transform: translateY(17%);
+    overflow: hidden;
+  }
+}

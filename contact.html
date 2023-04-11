@@ -1,0 +1,86 @@
+<!-- HEADER -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css'>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <title>Contact</title>
+</head>
+
+<body>
+    <div id="particles-js">
+        <div class="container">
+            <div class="row top">
+                <div class="twelve column">
+                    <div class="logo"><a href="index.html">A</a></div>
+                    <!-- HEADER -->
+                </div>
+            </div>
+
+            <article>
+                <h1>Contact me</h1>
+                <p>Any questions? Fell free to reach me!</p>
+                
+                <br>
+                <br>
+                <br>
+                
+                <form id="form" action="https://formspree.io/f/xdovlwgq" method="POST" onsubmit="return validate();">
+                    <label>Feedback:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <label>Your Name:</label>
+                    <input id="name" name="name" type="text" required/>
+
+                    <label>Your Email: </label>
+                    <input name="email" type="email" required/>
+                    <button class="button">submit</button>
+                </form>
+                
+            </article> 
+
+            <br><br><br><br>
+            <!-- FOOTER -->
+            <div>
+                <div class="u-full-width">
+                    <div class="logo smallLogo">
+                        <a href="index.html">A</a>
+                    </div>
+                    <ul class="footerLinks">
+                        <li>
+                            <a href="https://www.linkedin.com/in/msantos92/?locale=en_US">Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/santos-an">Github</a>
+                        </li>
+                        <li>
+                            <a href="blog/index.html">Blog</a>
+                          </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="footer">
+                        <p>Built using the AWESOME
+                            <a href="https://github.com/VincentGarreau/particles.js/">Particles.js</a>,
+                            <a href="https://cpv2api.com/">Codepen V2 API</a>,
+                            <a href="https://codepen.io/j-w-v/pen/RrMLjV"> Codepen JWV <a /> &amp;
+                                <a href="http://getskeleton.com/">Skeleton.css</a>
+                        </p>
+                    </div>
+                </div>
+                <script src='https://code.jquery.com/jquery-latest.min.js'></script>
+                <script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
+                <script src="js/particles.js"></script>
+            </div>
+    </body>
+
+</html>
+<!-- FOOTER -->
